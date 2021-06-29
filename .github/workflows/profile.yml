@@ -34,3 +34,13 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 4
           repositories: 100
+
+          # The repositories traffic plugin displays the number of page views across your repositories.
+          plugin_traffic: yes
+
+          # The stargazers plugin displays your stargazers evolution across all of your repositories over the last two weeks.
+          plugin_stargazers: yes
+
+          plugin_rss: yes
+          plugin_rss_source: https://indrabasak.github.io/feed.xml
+          plugin_rss_limit: 4
