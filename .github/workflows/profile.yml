@@ -21,6 +21,9 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Los_Angeles
+          retries: 2
+          retries_delay: 300
+          use_prebuilt_image: yes # faster execution
 
           plugin_introduction: yes
           plugin_introduction_title: yes
