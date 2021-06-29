@@ -2,8 +2,8 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-#  schedule: [{cron: "0 * * * *"}]
-  schedule: [{cron: "*/5 * * * *"}]
+  schedule: [{cron: "0 * * * *"}]
+#  schedule: [{cron: "*/5 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -27,7 +27,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # displays programming languages used in the repositories
+          # The languages displays programming languages used in the repositories
           plugin_languages: yes
           plugin_languages_colors: github
           # plugin_languages_limit: 8
@@ -37,16 +37,13 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           #plugin_languages_threshold: 0%
 
-          plugin_stars: yes
-          plugin_stars_limit: 4
-          repositories: 100
-
           # The repositories traffic plugin displays the number of page views across your repositories.
           plugin_traffic: yes
 
           # The stargazers plugin displays your stargazers evolution across all of your repositories over the last two weeks.
           plugin_stargazers: yes
 
+          # The rss plugin displays feed from my blo
           plugin_rss: yes
           plugin_rss_source: https://indrabasak.github.io/feed.xml
-          plugin_rss_limit: 4
+          plugin_rss_limit: 6
