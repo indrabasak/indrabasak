@@ -2,8 +2,10 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-#  schedule: [{cron: "*/5 * * * *"}]
+  # schedule: [{cron: "0 * * * *"}]
+  # schedule: [{cron: "*/5 * * * *"}]
+  # Schedule updates (00:30 && 12:30 UTC daily)
+  schedule: [ { cron: "30 0,12 * * *" } ]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -46,7 +48,7 @@ jobs:
           # The stargazers plugin displays your stargazers evolution across all of your repositories over the last two weeks.
           plugin_stargazers: yes
 
-          # The rss plugin displays feed from my blo
+          # The rss plugin displays feed from my blog
           plugin_rss: yes
           plugin_rss_source: https://indrabasak.github.io/feed.xml
           plugin_rss_limit: 6
