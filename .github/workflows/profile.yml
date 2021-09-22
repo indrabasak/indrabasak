@@ -48,6 +48,9 @@ jobs:
           # The stargazers plugin displays your stargazers evolution across all of your repositories over the last two weeks.
           plugin_stargazers: yes
 
+          # Recently starred repositories
+          plugin_stars: yes
+
           # The rss plugin displays feed from my blog
           plugin_rss: yes
           plugin_rss_source: https://indrabasak.github.io/feed.xml
