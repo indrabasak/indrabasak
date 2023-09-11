@@ -216,7 +216,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
                                     </svg>
-                                    5.21k views in last two weeks
+                                    5.32k views in last two weeks
                                 </div>
                             </section>
                         </div>
@@ -238,14 +238,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="171.39620821855024" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="171.39620821855024" y="0" width="145.56344382749353" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="316.95965204604374" y="0" width="59.81485106443928" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="376.77450311048307" y="0" width="35.868285486481454" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="412.6427885969645" y="0" width="25.44317818317236" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="438.08596678013686" y="0" width="9.148018887292137" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="447.233985667429" y="0" width="8.229244747031554" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="455.46323041446055" y="0" width="4.536769585539476" height="8" fill="#e16737"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="171.39608840173065" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="171.39608840173065" y="0" width="145.56350425964786" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="316.9595926613785" y="0" width="59.81487589718723" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="376.77446855856573" y="0" width="35.868300377567486" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="412.6427689361332" y="0" width="25.443188746168328" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="438.08595768230157" y="0" width="9.14802268518586" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="447.2339803674874" y="0" width="8.229248163486782" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="455.4632285309742" y="0" width="4.536771469025829" height="8" fill="#e16737"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -352,14 +352,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 10kb of code in 42 edited files across 6 commits over last 3 days</small>
+                <small>estimation from 18.4kb of code in 63 edited files across 10 commits over last 3 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="453.5692695214106" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="453.5692695214106" y="0" width="6.43073047858942" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="456.87228177641657" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="456.87228177641657" y="0" width="3.127718223583461" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -371,8 +371,8 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>7.83 kB</div>
-                                <div>98.6%</div>
+                                <div>16.2 kB</div>
+                                <div>99.32%</div>
                             </small>
                         </div>
                     </section>
@@ -386,7 +386,7 @@
                             </div>
                             <small>
                                 <div>111 bytes</div>
-                                <div>1.4%</div>
+                                <div>0.68%</div>
                             </small>
                         </div>
                     </section>
@@ -1479,6 +1479,13 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                         </g>
+                        <g transform="translate(44.199999999999996, 26)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
                     </g>
                 </svg>
             </section>
@@ -1496,13 +1503,8 @@
                             <div class="entry">
                                 <span class="value">290</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                28
-                                <div class="bottom">Aug.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 29
+                                <div class="bottom">Aug.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -1564,6 +1566,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 10
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                11
                             </div>
                         </div>
                     </section>
@@ -1573,13 +1580,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                28
-                                <div class="bottom">Aug.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 29
+                                <div class="bottom">Aug.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -1642,13 +1644,18 @@
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 10
                             </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                11
+                            </div>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 10 Sept 2023, 05:44:19 (timezone America/Los_Angeles) with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 10 Sept 2023, 18:31:36 (timezone America/Los_Angeles) with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
