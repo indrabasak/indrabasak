@@ -27,6 +27,10 @@ jobs:
           retries_delay: 300
           use_prebuilt_image: yes # faster execution
 
+          # Temporary: diagnosing empty repository nodes (0 languages/stargazers).
+          # Look for "base > loaded N repositories" and "Token validity" in the run log.
+          debug: yes
+
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_isocalendar: yes
