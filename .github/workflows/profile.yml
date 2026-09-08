@@ -39,7 +39,10 @@ jobs:
           # plugin_languages_recent.days: 14
           # plugin_languages_recent.load: 300
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_sections: most-used, recently-used
+          # "recently-used" is disabled: GitHub removed the commits array from PushEvent
+          # payloads (https://github.blog/changelog/2025-08-08-upcoming-changes-to-github-events-api-payloads/),
+          # which crashes the plugin's recent analyzer. See lowlighter/metrics#1754.
+          plugin_languages_sections: most-used
           #plugin_languages_threshold: 0%
 
           # The repositories traffic plugin displays the number of page views across your repositories.
