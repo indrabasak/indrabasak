@@ -38,6 +38,7 @@ jobs:
 
           # The languages displays programming languages used in the repositories
           plugin_languages: yes
+          plugin_languages_indepth: yes
           plugin_languages_colors: github
           # plugin_languages_limit: 8
           # plugin_languages_recent.days: 14
